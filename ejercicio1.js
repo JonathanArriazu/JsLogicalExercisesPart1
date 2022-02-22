@@ -2,6 +2,7 @@
 1) Crear una función que tome una array de números y retorne la suma de esos números.
 Ejemplo: [1, 2, 3] // Debe retornar 6.
 
+
 */
 
 function sumarNumeroArreglo(numeros) {
