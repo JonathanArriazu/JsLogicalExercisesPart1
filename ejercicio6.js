@@ -7,10 +7,11 @@ const userNumber = Number(prompt("Ingrese un numero"));
 
 function division() {
   if (userNumber % 5 === 0 && userNumber > 0) {
-    alert(true);
+    return true;
   } else {
-    alert(false);
+    return false;
   }
 }
 
-division();
+const resultado = division();
+console.log(resultado);

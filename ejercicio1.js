@@ -4,8 +4,9 @@ Ejemplo: [1, 2, 3] // Debe retornar 6.
 
 
 */
+let numeros = [1, 2, 3];
 
-function sumarNumeroArreglo(numeros) {
+function sumarNumerosArreglo() {
   let suma = 0;
   for (let i = 0; i < numeros.length; i++) {
     suma += numeros[i];
@@ -14,4 +15,22 @@ function sumarNumeroArreglo(numeros) {
   return suma;
 }
 
-console.log(sumarNumeroArreglo([1, 2, 3]));
+const newVariable = sumarNumerosArreglo();
+console.log(newVariable);
+
+/* ¿Esta bien usado el return? Previo a esto hice:
+
+let numeros = [1, 2, 3];
+
+function sumarNumerosArreglo() {
+  let suma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    suma += numeros[i];
+  }
+
+  console.log(suma);
+}
+
+sumarNumerosArreglo();
+
+*/

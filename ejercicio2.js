@@ -1,8 +1,7 @@
 /*
 
 2) Crear una función que calcule el área de un tríangulo.
-Pista: la formula para calcula la altura de un triángulo es base * altura / 2
-
+Pista: la formula para calcula el area de un triángulo es base * altura / 2
 
 */
 
